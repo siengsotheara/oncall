@@ -31,6 +31,8 @@ setuptools.setup(
         'pytz',
         'irisclient',
         'slackclient',
+        'requests',
+        'gunicorn'
     ],
     extras_require={
         'ldap': ['python-ldap'],
